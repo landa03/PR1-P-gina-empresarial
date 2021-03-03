@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mein.css">
+</head>
+
+<body>
+    <div id="nav-container">
+        <div class="nav-logo">
+            <nav><img class="logo" src="spooooon.jpg" alt="spoon-logo"></nav>
+        </div>
+        <div id="hamburger">
+            <button id="ham-button" onclick="hamburger()"><img class="logo" src="hamburger nav logo.jpg"
+                    alt="hamburger"></button>
+        </div>
+        <div id="nav-options">
+            <a href="spoons.html" class="nav-option1">Spoons.</a>
+            <a href="forks.html" class="nav-option2">Forks.</a>
+            <a href="knifes.html" class="nav-option3">Knifes.</a>
+            <a href="maor.html" class="nav-option4">Moar spoons.</a>
+        </div>
+        <!-- si el usuario no sierra el ham menu, estas opriones se seguiran mostrando, este es un error que no se solucionar por el momento -->
+        <div id="ham-options">
+            <a href="spoons.html" class="nav-option1">Spoons.</a>
+            <a href="forks.html" class="nav-option2">Forks.</a>
+            <a href="knifes.html" class="nav-option3">Knifes.</a>
+            <a href="maor.html" class="nav-option4">Moar spoons.</a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <div class="mid-text">
+            <h1>The ideal way for eating.</h1>
+        </div>
+    </div>
+    <footer>
+        <div id="form">
+            <div id="title">
+                <h2>Contact us.</h2>
+            </div>
+            <div class="info-inputs">
+                <div class="form-grup" class="input">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" name="input" id="name" class="form-input">
+                </div>
+                <div class="form-grup" class="input">
+                    <label for="e-mail" class="form-label">E-mail.</label>
+                    <input type="email" name="input" id="e-mail" calss="mail" class="form-input">
+                </div>
+                <div class="form-grup" class="input">
+                    <label for="text" class="form-label">Text.</label>
+                    <input type="text-area" name="input" id="text" calss="text" class="form-input">
+                </div>
+                <div class="button-options">
+                    <button id="send-button" onclick="validation()" type="submit">Send.</button>
+                </div>
+            </div>
+        </div>
+        <div id="marca-de-agua">
+            <p>Pajina hecha por David Omar Landa Agurre</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
